@@ -3,6 +3,6 @@ function computerChoice(){
     let index = Math.floor(Math.random()*3)
     return choices[index];
 }
-
+let sceltaDelComputer = computerChoice()
 
 
