@@ -27,6 +27,8 @@ function round (computerCho, humanCho){
     }
   
 }
+
+
 //Dichiarazione variabili globali
 let humanScore = 0
 let computerScore = 0
