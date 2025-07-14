@@ -10,8 +10,6 @@ function humanChoice() {
 }
 let sceltaDelComputer = computerChoice().toLowerCase()
 let sceltaDellUmano = humanChoice().toLowerCase()
-alert(sceltaDelComputer)
-alert(sceltaDellUmano)
 function partita (sceltaDelComputer, sceltaDellUmano){
     if (sceltaDelComputer === sceltaDellUmano){
         console.log("DRAW!")
@@ -19,8 +17,8 @@ function partita (sceltaDelComputer, sceltaDellUmano){
     else if (sceltaDelComputer === "rock" && sceltaDellUmano === "scissors"||
              sceltaDelComputer === "paper" && sceltaDellUmano === "rock" ||
              sceltaDelComputer === "scissors" && sceltaDellUmano === "paper"){
-                console.log("Computer win!")
-             }
+                console.log("Computer wins!")
+                }
     else {
         console.log("Human wins!")
     }
